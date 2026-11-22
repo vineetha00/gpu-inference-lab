@@ -1,0 +1,3 @@
+modal
+# everything else installs inside the Modal containers
+# for CPU tests: torch triton pytest matplotlib aiohttp

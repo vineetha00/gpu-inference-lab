@@ -1,0 +1,143 @@
+{
+  "gpu": "NVIDIA A10",
+  "notes": [],
+  "roofs": {
+    "peak_bw_Bps": 482936569786.1144,
+    "peak_flops": 73180877049491.89
+  },
+  "rows": [
+    {
+      "name": "add N=67,108,864",
+      "flops": 67108864,
+      "bytes": 402653184,
+      "time_us": 834.5440030097961,
+      "ai": 0.16666666666666666,
+      "achieved_tflops": 0.0804138113244728,
+      "achieved_GBps": 482.48286794683673,
+      "roof_tflops": 0.08048942829768573,
+      "pct_of_roof": 99.90605353421908,
+      "regime": "memory-bound"
+    },
+    {
+      "name": "softmax 8192x4096",
+      "flops": 167772160,
+      "bytes": 134217728,
+      "time_us": 367.6159977912903,
+      "ai": 1.25,
+      "achieved_tflops": 0.45637883282557984,
+      "achieved_GBps": 365.1030662604639,
+      "roof_tflops": 0.6036707122326429,
+      "pct_of_roof": 75.60062523783667,
+      "regime": "memory-bound"
+    },
+    {
+      "name": "linear B=1 4096x4096",
+      "flops": 33554432,
+      "bytes": 33570816,
+      "time_us": 80.89599758386612,
+      "ai": 0.9995119570522206,
+      "achieved_tflops": 0.41478482251502746,
+      "achieved_GBps": 414.9873541666462,
+      "roof_tflops": 0.4827008759990055,
+      "pct_of_roof": 85.92999166545579,
+      "regime": "memory-bound"
+    },
+    {
+      "name": "linear B=8 4096x4096",
+      "flops": 268435456,
+      "bytes": 33685504,
+      "time_us": 83.96799862384796,
+      "ai": 7.968871595330739,
+      "achieved_tflops": 3.1968781011741414,
+      "achieved_GBps": 401.17073828210664,
+      "roof_tflops": 3.8484595133150283,
+      "pct_of_roof": 83.069032949768,
+      "regime": "memory-bound"
+    },
+    {
+      "name": "linear B=32 4096x4096",
+      "flops": 1073741824,
+      "bytes": 34078720,
+      "time_us": 84.07999947667122,
+      "ai": 31.50769230769231,
+      "achieved_tflops": 12.770478481008075,
+      "achieved_GBps": 405.31303772730706,
+      "roof_tflops": 15.216216844953266,
+      "pct_of_roof": 83.92676452454498,
+      "regime": "memory-bound"
+    },
+    {
+      "name": "linear B=128 4096x4096",
+      "flops": 4294967296,
+      "bytes": 35651584,
+      "time_us": 86.14400029182434,
+      "ai": 120.47058823529412,
+      "achieved_tflops": 49.85799685933116,
+      "achieved_GBps": 413.86032549249495,
+      "roof_tflops": 58.17965264246837,
+      "pct_of_roof": 85.69662174802536,
+      "regime": "memory-bound"
+    },
+    {
+      "name": "linear B=512 4096x4096",
+      "flops": 17179869184,
+      "bytes": 41943040,
+      "time_us": 202.7519941329956,
+      "ai": 409.6,
+      "achieved_tflops": 84.7334165933324,
+      "achieved_GBps": 206.8686928548154,
+      "roof_tflops": 73.1808770494919,
+      "pct_of_roof": 115.78628189441837,
+      "regime": "compute-bound"
+    },
+    {
+      "name": "gemm 1024^3",
+      "flops": 2147483648,
+      "bytes": 6291456,
+      "time_us": 47.10400104522705,
+      "ai": 341.3333333333333,
+      "achieved_tflops": 45.59025985792772,
+      "achieved_GBps": 133.56521442752262,
+      "roof_tflops": 73.1808770494919,
+      "pct_of_roof": 62.298050660277326,
+      "regime": "compute-bound"
+    },
+    {
+      "name": "gemm 2048^3",
+      "flops": 17179869184,
+      "bytes": 25165824,
+      "time_us": 236.54399812221527,
+      "ai": 682.6666666666666,
+      "achieved_tflops": 72.62864126919708,
+      "achieved_GBps": 106.3896112341754,
+      "roof_tflops": 73.1808770494919,
+      "pct_of_roof": 99.24538239693229,
+      "regime": "compute-bound"
+    },
+    {
+      "name": "gemm 4096^3",
+      "flops": 137438953472,
+      "bytes": 100663296,
+      "time_us": 2480.6400537490845,
+      "ai": 1365.3333333333333,
+      "achieved_tflops": 55.40463368084513,
+      "achieved_GBps": 40.579565684212746,
+      "roof_tflops": 73.1808770494919,
+      "pct_of_roof": 75.70916872638084,
+      "regime": "compute-bound"
+    },
+    {
+      "name": "gemm 8192^3",
+      "flops": 1099511627776,
+      "bytes": 402653184,
+      "time_us": 15176.704406738281,
+      "ai": 2730.6666666666665,
+      "achieved_tflops": 72.44732441964341,
+      "achieved_GBps": 26.531002595084257,
+      "roof_tflops": 73.1808770494919,
+      "pct_of_roof": 98.9976170559525,
+      "regime": "compute-bound"
+    }
+  ],
+  "ncu_ok": false
+}

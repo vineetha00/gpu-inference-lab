@@ -1,0 +1,181 @@
+Collecting data...
+Generating '/tmp/nsys-report-147b.qdstrm'
+
+[1/7] [0%                          ] timeline.nsys-rep
+[1/7] [0%                          ] timeline.nsys-rep
+[1/7] [===================82%      ] timeline.nsys-rep
+[1/7] [====================83%     ] timeline.nsys-rep
+[1/7] [========================100%] timeline.nsys-rep
+[1/7] [========================100%] timeline.nsys-rep
+
+[2/7] [0%                          ] timeline.sqlite
+[2/7] [1%                          ] timeline.sqlite
+[2/7] [2%                          ] timeline.sqlite
+[2/7] [3%                          ] timeline.sqlite
+[2/7] [4%                          ] timeline.sqlite
+[2/7] [5%                          ] timeline.sqlite
+[2/7] [6%                          ] timeline.sqlite
+[2/7] [7%                          ] timeline.sqlite
+[2/7] [8%                          ] timeline.sqlite
+[2/7] [9%                          ] timeline.sqlite
+[2/7] [10%                         ] timeline.sqlite
+[2/7] [11%                         ] timeline.sqlite
+[2/7] [12%                         ] timeline.sqlite
+[2/7] [13%                         ] timeline.sqlite
+[2/7] [14%                         ] timeline.sqlite
+[2/7] [=15%                        ] timeline.sqlite
+[2/7] [=16%                        ] timeline.sqlite
+[2/7] [=17%                        ] timeline.sqlite
+[2/7] [==18%                       ] timeline.sqlite
+[2/7] [==19%                       ] timeline.sqlite
+[2/7] [==20%                       ] timeline.sqlite
+[2/7] [==21%                       ] timeline.sqlite
+[2/7] [===22%                      ] timeline.sqlite
+[2/7] [===23%                      ] timeline.sqlite
+[2/7] [===24%                      ] timeline.sqlite
+[2/7] [====25%                     ] timeline.sqlite
+[2/7] [====26%                     ] timeline.sqlite
+[2/7] [====27%                     ] timeline.sqlite
+[2/7] [====28%                     ] timeline.sqlite
+[2/7] [=====29%                    ] timeline.sqlite
+[2/7] [=====30%                    ] timeline.sqlite
+[2/7] [=====31%                    ] timeline.sqlite
+[2/7] [=====32%                    ] timeline.sqlite
+[2/7] [======33%                   ] timeline.sqlite
+[2/7] [======34%                   ] timeline.sqlite
+[2/7] [======35%                   ] timeline.sqlite
+[2/7] [=======36%                  ] timeline.sqlite
+[2/7] [=======37%                  ] timeline.sqlite
+[2/7] [=======38%                  ] timeline.sqlite
+[2/7] [=======39%                  ] timeline.sqlite
+[2/7] [========40%                 ] timeline.sqlite
+[2/7] [========41%                 ] timeline.sqlite
+[2/7] [========42%                 ] timeline.sqlite
+[2/7] [=========43%                ] timeline.sqlite
+[2/7] [=========44%                ] timeline.sqlite
+[2/7] [=========45%                ] timeline.sqlite
+[2/7] [=========46%                ] timeline.sqlite
+[2/7] [==========47%               ] timeline.sqlite
+[2/7] [==========48%               ] timeline.sqlite
+[2/7] [==========49%               ] timeline.sqlite
+[2/7] [===========50%              ] timeline.sqlite
+[2/7] [===========51%              ] timeline.sqlite
+[2/7] [===========52%              ] timeline.sqlite
+[2/7] [===========53%              ] timeline.sqlite
+[2/7] [============54%             ] timeline.sqlite
+[2/7] [============55%             ] timeline.sqlite
+[2/7] [============56%             ] timeline.sqlite
+[2/7] [============57%             ] timeline.sqlite
+[2/7] [=============58%            ] timeline.sqlite
+[2/7] [=============59%            ] timeline.sqlite
+[2/7] [=============60%            ] timeline.sqlite
+[2/7] [==============61%           ] timeline.sqlite
+[2/7] [==============62%           ] timeline.sqlite
+[2/7] [==============63%           ] timeline.sqlite
+[2/7] [==============64%           ] timeline.sqlite
+[2/7] [===============65%          ] timeline.sqlite
+[2/7] [===============66%          ] timeline.sqlite
+[2/7] [===============67%          ] timeline.sqlite
+[2/7] [================68%         ] timeline.sqlite
+[2/7] [================69%         ] timeline.sqlite
+[2/7] [================70%         ] timeline.sqlite
+[2/7] [================71%         ] timeline.sqlite
+[2/7] [=================72%        ] timeline.sqlite
+[2/7] [=================73%        ] timeline.sqlite
+[2/7] [=================74%        ] timeline.sqlite
+[2/7] [==================75%       ] timeline.sqlite
+[2/7] [==================76%       ] timeline.sqlite
+[2/7] [==================77%       ] timeline.sqlite
+[2/7] [==================78%       ] timeline.sqlite
+[2/7] [===================79%      ] timeline.sqlite
+[2/7] [===================80%      ] timeline.sqlite
+[2/7] [===================81%      ] timeline.sqlite
+[2/7] [===================82%      ] timeline.sqlite
+[2/7] [====================83%     ] timeline.sqlite
+[2/7] [====================84%     ] timeline.sqlite
+[2/7] [====================85%     ] timeline.sqlite
+[2/7] [=====================86%    ] timeline.sqlite
+[2/7] [=====================87%    ] timeline.sqlite
+[2/7] [=====================88%    ] timeline.sqlite
+[2/7] [=====================89%    ] timeline.sqlite
+[2/7] [======================90%   ] timeline.sqlite
+[2/7] [======================91%   ] timeline.sqlite
+[2/7] [======================92%   ] timeline.sqlite
+[2/7] [=======================93%  ] timeline.sqlite
+[2/7] [=======================94%  ] timeline.sqlite
+[2/7] [=======================95%  ] timeline.sqlite
+[2/7] [=======================96%  ] timeline.sqlite
+[2/7] [========================97% ] timeline.sqlite
+[2/7] [========================98% ] timeline.sqlite
+[2/7] [========================99% ] timeline.sqlite
+[2/7] [========================100%] timeline.sqlite
+[2/7] [========================100%] timeline.sqlite
+[3/7] Executing 'nvtx_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)   Style            Range         
+ --------  ---------------  ---------  ----------  ----------  --------  --------  -----------  -------  -----------------------
+     80.2         15777983          1  15777983.0  15777983.0  15777983  15777983          0.0  PushPop  :gemm 8192^3           
+      8.8          1728336          1   1728336.0   1728336.0   1728336   1728336          0.0  PushPop  :gemm 4096^3           
+      4.4           862411          1    862411.0    862411.0    862411    862411          0.0  PushPop  :add N=67,108,864      
+      2.0           393348          1    393348.0    393348.0    393348    393348          0.0  PushPop  :softmax 8192x4096     
+      1.1           220629          1    220629.0    220629.0    220629    220629          0.0  PushPop  :gemm 2048^3           
+      1.1           218046          1    218046.0    218046.0    218046    218046          0.0  PushPop  :linear B=512 4096x4096
+      0.7           129800          1    129800.0    129800.0    129800    129800          0.0  PushPop  :linear B=1 4096x4096  
+      0.5           102465          1    102465.0    102465.0    102465    102465          0.0  PushPop  :linear B=32 4096x4096 
+      0.5            98895          1     98895.0     98895.0     98895     98895          0.0  PushPop  :linear B=128 4096x4096
+      0.5            97972          1     97972.0     97972.0     97972     97972          0.0  PushPop  :linear B=8 4096x4096  
+      0.3            54581          1     54581.0     54581.0     54581     54581          0.0  PushPop  :gemm 1024^3           
+
+[4/7] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                Name               
+ --------  ---------------  ---------  ---------  ---------  --------  --------  -----------  ---------------------------------
+     30.3         75854657         21  3612126.5  2446739.0     16594  12668667    4597661.4  cudaMemcpyAsync                  
+     26.7         66936345         14  4781167.5  4787978.5   2028803   8738623    2280127.0  cuLibraryLoadData                
+     26.6         66798136         22  3036278.9   185404.0     19342  37733797    8461790.0  cudaDeviceSynchronize            
+      9.7         24246976         28   865963.4     5595.5      4145  14535721    3223987.2  cudaLaunchKernel                 
+      2.4          5934268         16   370891.8      265.0       130   5517581    1373555.9  cuKernelGetFunction              
+      2.1          5328654         22   242211.5   247497.0      2885    375272      88489.0  cudaMalloc                       
+      1.2          3064747          1  3064747.0  3064747.0   3064747   3064747          0.0  cudaFree                         
+      0.5          1345436          1  1345436.0  1345436.0   1345436   1345436          0.0  cudaGetDeviceProperties_v2_v12000
+      0.3           739764         21    35226.9    38863.0      5757     44158      11271.7  cudaStreamSynchronize            
+      0.1           137353        838      163.9      137.0        78       933         88.8  cuGetProcAddress_v2              
+      0.0           115825         16     7239.1     5552.0      3896     16795       3918.0  cuLaunchKernel                   
+      0.0            77031         19     4054.3     3726.0      1060      7308       1774.0  cudaStreamIsCapturing_v10000     
+      0.0            52606         17     3094.5     3771.0       449      5722       1955.9  cuLibraryGetKernel               
+      0.0            16882          4     4220.5     4232.5      3242      5175        839.3  cuInit                           
+      0.0            16240         18      902.2      356.0       302      5982       1419.7  cudaEventCreateWithFlags         
+      0.0             1505          3      501.7      152.0        98      1255        653.0  cuModuleGetLoadingMode           
+      0.0             1221          2      610.5      610.5       309       912        426.4  cudaGetDriverEntryPoint_v11030   
+
+[5/7] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                                                  Name                                                
+ --------  ---------------  ---------  ----------  ----------  --------  --------  -----------  ----------------------------------------------------------------------------------------------------
+     78.8         53517171          4  13379292.8  12880355.0  12044290  15712171    1704258.2  void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_256x128_32x3_nn_align8>(T1::Param…
+     10.0          6811123          4   1702780.8   1703733.0   1692581   1711076       7950.5  ampere_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_nn                                          
+      4.9          3305544          4    826386.0    826866.0    823810    828002       1823.8  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<c10::Half>, std:…
+      2.2          1487428          4    371857.0    371905.0    371041    372577        703.3  void at::native::<unnamed>::cunn_SoftMaxForwardReg<c10::Half, float, c10::Half, at::native::<unname…
+      1.1           777026          4    194256.5    194353.0    191264    197056       2552.1  ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_32x3_nn                                         
+      1.1           753923          4    188480.8    188480.5    186209    190753       2269.2  void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x3_nn_align8>(T1::Param…
+      0.4           296128          4     74032.0     74336.0     72672     74784        931.3  ampere_fp16_s16816gemm_fp16_128x64_ldg8_f2f_stages_32x6_nn                                          
+      0.4           283360          4     70840.0     70864.0     70688     70944        108.9  ampere_fp16_s16816gemm_fp16_64x64_sliced1x2_ldg8_f2f_stages_64x6_nn                                 
+      0.4           283297          4     70824.3     70864.0     70625     70944        138.7  void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_64x64_32x6_nn_align8>(T1::Params) 
+      0.4           279776          4     69944.0     68208.0     68064     75296       3569.2  ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x5_nn                                           
+      0.2           112000          4     28000.0     27776.0     26944     29504       1092.1  void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x128_32x4_nn_align8>(T1::Param…
+
+[6/7] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)           Operation          
+ --------  ---------------  -----  ---------  ---------  --------  --------  -----------  ----------------------------
+    100.0         73875950     21  3517902.4  2348487.0      1152  12571394    4587191.7  [CUDA memcpy Host-to-Device]
+
+[7/7] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    865.411     21    41.210    33.554     0.008   134.218       49.471  [CUDA memcpy Host-to-Device]
+
+Generated:
+    /tmp/timeline.nsys-rep
+    /tmp/timeline.sqlite
